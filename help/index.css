@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    background:black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 53vw;
+    height: 50vh;
+    background-color: #1c1839;
+    position: absolute;
+    top: 10vw;
+    left: 20vw;
+}
+
+.img{
+    width: 28.6vw;
+    position: absolute;
+    left: 46.3%;
+    filter: grayscale(100);
+    top:0;
+    transition: .5s;
+    height: 50vh;
+}
+.img:hover{
+    filter: grayscale(0);
+}
+.text{
+    color: white;
+font-size: 29px;
+position: absolute;
+bottom: 36vh;
+left: 3vw;
+max-width: 20vw;
+}
+
+.span {
+    color: #7845a2;
+}
+.description {
+    color: #fff;
+max-width: 20vw;
+font-size: 19px;
+position: relative;
+top: 11vw;
+left: 2vw;
+opacity: 0.7;
+font-weight:100;
+line-height:1.5;
+}
+.statics{
+    color: #fff;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 35vh;
+    left: 23vw;
+    display: flex;
+}
+
+.companies{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+}
+.templates{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+}
+.queries{
+    margin: 0 10px;
+display: flex;
+flex-direction: column;
+opacity: 0.7;
+}
+.num{
+    font-weight: bold;
+    font-size: 25px;
+    opacity: 1;
+}
+@media (max-width:600px) {
+    body {
+        font-size:12px;
+    }
+}
